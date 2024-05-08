@@ -1,12 +1,16 @@
 <script setup>
+import Hero from './components/Hero.vue';
 import HelloWorld from './components/HelloWorld.vue'
 import Navbar from './components/Navbar.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
-  <div>
+  <div class="bg-[#faffff]">
     <Navbar />
+    <Hero />
     <!-- <HelloWorld msg="Vite + Vue" /> -->
+    <Footer />
   </div>
 </template>
 

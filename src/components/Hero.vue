@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import { RouterLink, RouterView } from "vue-router"
+</script>
 
 <template>
     <div class="hero min-h-screen">
@@ -10,7 +12,8 @@
                     riscaldamento globale passando per
                     l’ecologia
                 </p>
-                <button class="btn bg-red-200 hover:bg-red-600 text-xl">Scopri di più</button>
+                <RouterLink to="/smart" class="btn bg-red-500 hover:bg-red-300 text-xl text-white">Scopri di più
+                </RouterLink>
             </div>
             <div class="quote">
                 <div class="quote__content bg-white p-8 rounded-lg shadow-md">
